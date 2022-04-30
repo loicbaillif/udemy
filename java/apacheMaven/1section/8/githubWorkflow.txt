@@ -2,4 +2,20 @@
 * Apache Maven: Beginner to Guru *
 **********************************
 
-** GitHub Workflow **
+**** GitHub Workflow ****
+
+
+How to use GitHub with this course?
+
+*** Starting Branch ***
+State of the course at the beginning
+
+*** Ending Branch ***
+State of the course at the end
+
+*** Suggestion ***
+Clone the starting branch
+Do the coding on our cloned repository
+Compare with the ending branch
+
+

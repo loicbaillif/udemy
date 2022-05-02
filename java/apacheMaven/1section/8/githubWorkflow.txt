@@ -14,6 +14,7 @@ State of the course at the beginning
 State of the course at the end
 
 *** Suggestion ***
+Fork the repository
 Clone the starting branch
 Do the coding on our cloned repository
 Compare with the ending branch

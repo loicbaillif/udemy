@@ -2,3 +2,4 @@
 java/apacheMaven/spring5webapp/
 java/apacheMaven/5section/32/S5C32/mavenDeps/target/classes/HelloWorld.class
 java/apacheMaven/5section/35/S5C35/.idea/
+*.class

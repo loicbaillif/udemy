@@ -2,5 +2,126 @@
 java/apacheMaven/spring5webapp/
 java/apacheMaven/5section/32/S5C32/mavenDeps/target/classes/HelloWorld.class
 java/apacheMaven/5section/35/S5C35/.idea/
+######################
+# Project Specific
+######################
+**/build/www/**
+**/src/test/javascript/coverage/
+**/src/test/javascript/PhantomJS*/
+
+######################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+
+######################
+# SASS
+######################
+.sass-cache/
+
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.factorypath
+/src/main/resources/rebel.xml
+
+# External tool builders
+.externalToolBuilders/**
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+######################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+######################
+# Visual Studio Code
+######################
+.vscode/
+
+######################
+# Maven
+######################
+**/log/
+**/target/
+**/wells-fargo-ach-service/target/**
+**/wells-fargo-api-client/target/**
+
+######################
+# Gradle
+######################
+.gradle/
+**/build/
+
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
+
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Thumbnails
+._*
+
+######################
+# Directories
+######################
+**/bin/
+**/deploy/
+
+######################
+# Logs
+######################
+*.log
+
+######################
+# Others
+######################
 *.class
-java/apacheMaven/6section/40/S6C40/target/classes/Main.class
+*.*~
+*~
+.merge_file*
+
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jar

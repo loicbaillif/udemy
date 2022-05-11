@@ -32,7 +32,7 @@
                 <version>3.2.0</version>
                 <executions>
                     <execution>
-                        <id>auto-clean</id>
+                        <id>auto-wash</id>
                         <phase>initialize</phase>
                         <goals>
                             <goal>clean</goal>

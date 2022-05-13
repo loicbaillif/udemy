@@ -9,7 +9,7 @@ public class Main {
                 70,
                 '*'
         ));
-        System.out.println(StringUtils.center(" S6C46 ", 70, '*'));
+        System.out.println(StringUtils.center(" S6C46 - Maven Site Plugin", 70, '*'));
 
     }
 

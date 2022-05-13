@@ -12,5 +12,6 @@ public class Main {
                 " S6C48 - Other Maven Plugins ",
                 70,
                 '*'));
+        System.out.println("\nHave a look to https://maven.apache.org/ref/3.8.5/");
     }
 }

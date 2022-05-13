@@ -13,5 +13,6 @@ public class Main {
                 70,
                 '*'
         ));
+        System.out.println("\nImportant: Do not store 'target' folder in git");
     }
 }

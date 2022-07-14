@@ -18,5 +18,16 @@ public class Ch9 {
         String words;
         words = "I am a String.";
         System.out.println(words);
+
+        // Combining declaration & assignment
+        int y = 33;
+        String sentence = "I am another String.";
+        System.out.println(y);
+        System.out.println(sentence);
+
+        // First operators:
+        System.out.println(y + x);
+        System.out.println(y - x);
+        System.out.println(words + sentence);
     }
 }

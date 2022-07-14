@@ -46,6 +46,6 @@ public class Print {
     }
 
     public static void title(String text, short size) {
-
+        title(text, size, '*', ' ');
     }
 }

@@ -1,13 +1,14 @@
 package com.loicbaillif;
 
 import com.loicbaillif.format.Print;
+import com.loicbaillif.s4.Ch9;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        Print.title(" Section 1 ", (short) 40, '*', ' ');
-        Print.title(" Section 1 ", (short) 41, '*', ' ');
-        Print.title(" Section 1 ", (short) 40, '*', '-');
-        Print.title(" Séction 1 ", (short) 40, '*', ' ');
+        Print.title("", (short) 80);
+        Print.title(" UDEMY - The Complete Java Certification Course ",
+                (short) 80);
+        Print.title("", (short) 80);
+        Ch9.main();
     }
 }

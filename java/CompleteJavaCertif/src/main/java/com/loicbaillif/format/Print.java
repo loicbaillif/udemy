@@ -45,6 +45,10 @@ public class Print {
 
     }
 
+    public static void title(String text, short size, char innerFill) {
+        title(text, size, innerFill, ' ');
+    }
+
     public static void title(String text, short size) {
         System.out.println("\n\n");
         for (short i = 0; i < MAX_SIZE; i++) {

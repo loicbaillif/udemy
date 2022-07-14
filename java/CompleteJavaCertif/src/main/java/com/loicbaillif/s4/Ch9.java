@@ -13,5 +13,10 @@ public class Ch9 {
         x = 23;
         System.out.println(x);
 
+        // Other variables types
+        // x = "This is an error"; this can't work
+        String words;
+        words = "I am a String.";
+        System.out.println(words);
     }
 }

@@ -46,6 +46,15 @@ public class Print {
     }
 
     public static void title(String text, short size) {
+        System.out.println("\n\n");
+        for (short i = 0; i < MAX_SIZE; i++) {
+            System.out.print('*');
+        }
+        System.out.println();
         title(text, size, '*', ' ');
+        for (short i = 0; i < MAX_SIZE; i++) {
+            System.out.print('*');
+        }
+        System.out.println("\n\n");
     }
 }

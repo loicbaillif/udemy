@@ -14,5 +14,9 @@ public class Ch10 {
         System.out.println("long range: Integer coded on 8 bytes");
         long bigNumber = 100000000000L;
         System.out.println("long bigNumber = 10000000000L");
+        System.out.println("Boolean: true or false");
+        System.out.println("Char: 1 character, 2 bytes");
+        char letter = '%';
+        boolean decision = false;
     }
 }

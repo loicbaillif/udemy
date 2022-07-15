@@ -46,7 +46,9 @@ public class Print {
     }
 
     public static void title(String text, short size, char innerFill) {
+        System.out.println();
         title(text, size, innerFill, ' ');
+        System.out.println();
     }
 
     public static void title(String text, short size) {

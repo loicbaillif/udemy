@@ -15,8 +15,10 @@ public class Ch10 {
         long bigNumber = 100000000000L;
         System.out.println("long bigNumber = 10000000000L");
         System.out.println("Boolean: true or false");
-        System.out.println("Char: 1 character, 2 bytes");
-        char letter = '%';
+        System.out.println("Char: 1 character, 2 bytes; Unicode encoded");
+        char letter = '@';
         boolean decision = false;
+        short letterToShort = (short) letter;
+        System.out.println(letter + " --> " + letterToShort);
     }
 }

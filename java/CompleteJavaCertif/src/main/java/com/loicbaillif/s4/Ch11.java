@@ -25,7 +25,15 @@ public class Ch11 {
         String[] words = new String[] {"My", "taylor", "is", "rich"};
         System.out.println(words[3]);
         for (int i = 0; i < words.length; i++) {
-            System.out.printf("words[%d] ==> %s%n", i, words[i]);
+            System.out.printf("\twords[%d] ==> %s%n", i, words[i]);
+        }
+        System.out.println("And we reassign values in array words");
+        words[0] = "Welcome";
+        words[1] = "to";
+        words[2] = "Hotel";
+        words[3] = "California";
+        for (int i = 0; i < words.length; i++) {
+            System.out.printf("\twords[%d] ==> %s%n", i, words[i]);
         }
     }
 }

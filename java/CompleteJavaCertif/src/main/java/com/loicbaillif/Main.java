@@ -1,8 +1,7 @@
 package com.loicbaillif;
 
 import com.loicbaillif.format.Print;
-import com.loicbaillif.s4.Ch10;
-import com.loicbaillif.s4.Ch9;
+import com.loicbaillif.s4.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,5 +9,6 @@ public class Main {
                 (short) 80);
         Ch9.main();
         Ch10.main();
+        Ch11.main();
     }
 }

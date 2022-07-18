@@ -15,5 +15,8 @@ public class Ch12 {
             // Executed when hungry == false;
             System.out.println("I'm not hungry.");
         }
+        if (!hungry) {
+            System.out.println("You can have a nap then.");
+        }
     }
 }

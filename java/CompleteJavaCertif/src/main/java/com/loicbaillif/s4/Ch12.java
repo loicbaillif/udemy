@@ -27,7 +27,7 @@ public class Ch12 {
         }
 
         int favoriteTemp = 23; // degrees Celsius
-        int currentTemp = 26;  // degrees Celsius
+        int currentTemp = 17;  // degrees Celsius
         String opinion;
         if (currentTemp < favoriteTemp - 15) {
             opinion = "It's freezing cold ...";
@@ -42,5 +42,10 @@ public class Ch12 {
         }
         System.out.println(opinion);
 
+        byte diceResult = 5;
+        byte maxResult = 6;
+        if (diceResult != maxResult) {
+            System.out.println("You can do better...");
+        }
     }
 }

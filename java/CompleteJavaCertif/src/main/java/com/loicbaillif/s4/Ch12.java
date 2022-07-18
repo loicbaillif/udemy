@@ -25,5 +25,22 @@ public class Ch12 {
         } else {
             System.out.println("I'm starving ...");
         }
+
+        int favoriteTemp = 23; // degrees Celsius
+        int currentTemp = 26;  // degrees Celsius
+        String opinion;
+        if (currentTemp < favoriteTemp - 15) {
+            opinion = "It's freezing cold ...";
+        } else if (currentTemp < favoriteTemp - 10) {
+            opinion = "It's kinda cold out ...";
+        } else if (currentTemp < favoriteTemp - 5) {
+            opinion = "It's cold but I'm ok.";
+        } else if (currentTemp < favoriteTemp + 5) {
+            opinion = "It's a beautiful day!";
+        } else {
+            opinion = "Hot weather! Hot weather!";
+        }
+        System.out.println(opinion);
+
     }
 }

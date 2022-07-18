@@ -7,13 +7,13 @@ public class Ch12 {
         Print.title(" Section 4 - Chapter 12: Control Flow (if, else, switch) ",
                 (short) 80, '*');
 
-        boolean hungry;
+        boolean hungry = true;
         if (hungry) {
-            // Executed when hungry == True;
-
+            // Executed when hungry == true;
+            System.out.println("I'm starving...");
         } else {
-            // Executed when hungry == False;
-            
+            // Executed when hungry == false;
+            System.out.println("I'm not hungry.");
         }
     }
 }

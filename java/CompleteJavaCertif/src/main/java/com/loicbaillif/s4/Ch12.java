@@ -18,5 +18,12 @@ public class Ch12 {
         if (!hungry) {
             System.out.println("You can have a nap then.");
         }
+
+        byte hungerRating = 5; // From 1 to 10
+        if (!(hungerRating > 6)) {
+            System.out.println("Not hungry... yet");
+        } else {
+            System.out.println("I'm starving ...");
+        }
     }
 }

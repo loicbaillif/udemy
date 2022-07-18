@@ -10,5 +10,6 @@ public class Main {
         Ch9.main();
         Ch10.main();
         Ch11.main();
+        Ch12.main();
     }
 }

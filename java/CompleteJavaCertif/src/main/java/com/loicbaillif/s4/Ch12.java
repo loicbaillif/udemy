@@ -6,6 +6,14 @@ public class Ch12 {
     public static void main() {
         Print.title(" Section 4 - Chapter 12: Control Flow (if, else, switch) ",
                 (short) 80, '*');
-        
+
+        boolean hungry;
+        if (hungry) {
+            // Executed when hungry == True;
+
+        } else {
+            // Executed when hungry == False;
+            
+        }
     }
 }

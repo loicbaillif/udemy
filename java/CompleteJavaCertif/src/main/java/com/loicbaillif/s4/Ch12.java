@@ -29,16 +29,20 @@ public class Ch12 {
         int favoriteTemp = 23; // degrees Celsius
         int currentTemp = 17;  // degrees Celsius
         String opinion;
-        if (currentTemp < favoriteTemp - 15) {
-            opinion = "It's freezing cold ...";
-        } else if (currentTemp < favoriteTemp - 10) {
-            opinion = "It's kinda cold out ...";
-        } else if (currentTemp < favoriteTemp - 5) {
-            opinion = "It's cold but I'm ok.";
-        } else if (currentTemp < favoriteTemp + 5) {
-            opinion = "It's a beautiful day!";
+        if (currentTemp != favoriteTemp) {
+            if (currentTemp < favoriteTemp - 15) {
+                opinion = "It's freezing cold ...";
+            } else if (currentTemp < favoriteTemp - 10) {
+                opinion = "It's kinda cold out ...";
+            } else if (currentTemp < favoriteTemp - 5) {
+                opinion = "It's cold but I'm ok.";
+            } else if (currentTemp < favoriteTemp + 5) {
+                opinion = "It's a beautiful day!";
+            } else {
+                opinion = "Hot weather! Hot weather!";
+            }
         } else {
-            opinion = "Hot weather! Hot weather!";
+            opinion = "Lucky boy";
         }
         System.out.println(opinion);
 

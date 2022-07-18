@@ -51,5 +51,26 @@ public class Ch12 {
         if (diceResult != maxResult) {
             System.out.println("You can do better...");
         }
+
+        int month = 2;
+        String monthString;
+
+        switch (month) {
+            case 1:
+                monthString = "January";
+                break;
+            case 2:
+                monthString = "February";
+                break;
+            case 3:
+                monthString = "March";
+                break;
+            case 4:
+                monthString = "April";
+                break;
+            default:
+                monthString = "Winter is gone!";
+        }
+        System.out.println(monthString);
     }
 }

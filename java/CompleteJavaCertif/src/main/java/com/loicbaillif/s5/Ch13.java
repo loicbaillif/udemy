@@ -9,6 +9,8 @@ public class Ch13 {
         System.out.println("Invoking method println() to display this text");
         printSomething("hammer");
         printSomething(44);
+        MyUtils.daysToWeeks(44);
+        MyUtils.daysToWeeks(56);
     }
 
     public static void printSomething(String argument) {
@@ -18,6 +20,6 @@ public class Ch13 {
 
     public static void printSomething(int argument) {
         System.out.println("Hi Universe!");
-        System.out.printf("You need %d dollars, right?", argument);
+        System.out.printf("You need %d dollars, right?\n", argument);
     }
 }

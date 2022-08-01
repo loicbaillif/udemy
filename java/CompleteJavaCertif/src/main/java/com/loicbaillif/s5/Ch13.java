@@ -7,7 +7,7 @@ public class Ch13 {
         Print.title(" Section 4 - Chapter 13: Methods in Java ",
                 (short) 80, '*');
         System.out.println("Invoking method println() to display this text");
-        printSomething("hammer");
+        String text1 = printSomething("hammer");
         printSomething(44);
         MyUtils.daysToWeeks(44);
         MyUtils.daysToWeeks(56);
@@ -15,9 +15,10 @@ public class Ch13 {
         MyUtils.daysToWeeks(MyUtils.add10(15));
     }
 
-    public static void printSomething(String argument) {
+    public static String printSomething(String argument) {
         System.out.println("Hi Universe!");
         System.out.println("You asked for " + argument + "?");
+        return argument;
     }
 
     public static void printSomething(int argument) {

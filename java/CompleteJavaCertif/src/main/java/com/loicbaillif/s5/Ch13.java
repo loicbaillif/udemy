@@ -8,10 +8,16 @@ public class Ch13 {
                 (short) 80, '*');
         System.out.println("Invoking method println() to display this text");
         printSomething("hammer");
+        printSomething(44);
     }
 
     public static void printSomething(String argument) {
         System.out.println("Hi Universe!");
         System.out.println("You asked for " + argument + "?");
+    }
+
+    public static void printSomething(int argument) {
+        System.out.println("Hi Universe!");
+        System.out.printf("You need %d dollars, right?", argument);
     }
 }

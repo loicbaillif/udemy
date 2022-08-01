@@ -16,6 +16,12 @@ public class MyUtils {
     }
 
     public static void sumOfTwo(int a, int b) {
-        System.out.printf("%d + %d = %d", a, b, a + b);
+        System.out.printf("%d + %d = %d%n", a, b, a + b);
+    }
+
+
+    public static int add10(int a) {
+        int result = a + 10;
+        return result;
     }
 }

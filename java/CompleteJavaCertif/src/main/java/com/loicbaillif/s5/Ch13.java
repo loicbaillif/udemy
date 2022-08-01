@@ -11,6 +11,7 @@ public class Ch13 {
         printSomething(44);
         MyUtils.daysToWeeks(44);
         MyUtils.daysToWeeks(56);
+        MyUtils.sumOfTwo(33, 22);
     }
 
     public static void printSomething(String argument) {

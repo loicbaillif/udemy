@@ -8,10 +8,14 @@ public class MyUtils {
             String addendum = (remainDays == 0)
                     ? "precisely to "
                     : "to a bit more than ";
-            System.out.printf("%d days correspond %s%d weeks",
+            System.out.printf("%d days correspond %s%d weeks%n",
                     nbDays, addendum, nbWeeks);
         } else {
             System.out.println("Negative days? I'm not there yet ...");
         }
+    }
+
+    public static void sumOfTwo(int a, int b) {
+        System.out.printf("%d + %d = %d", a, b, a + b);
     }
 }

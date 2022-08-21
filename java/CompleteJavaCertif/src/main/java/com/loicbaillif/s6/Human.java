@@ -3,19 +3,20 @@ package com.loicbaillif.s6;
 public class Human {
     // Attributes
     int age;
-    static int nbHumans;
+    static int nbHumans = 0;
     int heightInCms;
     String eyeColour;
     String firstName;
     String lastName;
+    
 
     // Methods
     public void speak() {
-        System.out.printf("Hello, my name is %s %s", firstName, lastName);
-        System.out.printf("I am %.2f meters tall.", heightInCms / 100);
-        System.out.printf("I am %d years old.", age);
-        System.out.printf("My eyes are %s", eyeColour);
-        System.out.printf("Oh and I am the human number %d", nbHumans);
+        System.out.printf("Hello, my name is %s %s%n", firstName, lastName);
+        System.out.printf("I am %.2f meters tall.%n", (float)heightInCms/100);
+        System.out.printf("I am %d years old.%n", age);
+        System.out.printf("My eyes are %s.%n", eyeColour);
+        System.out.printf("Oh and I am the human number %d!%n", nbHumans);
     }
 
     public void eat() {

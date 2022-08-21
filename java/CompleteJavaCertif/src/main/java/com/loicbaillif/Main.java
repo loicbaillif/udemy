@@ -3,6 +3,7 @@ package com.loicbaillif;
 import com.loicbaillif.format.Print;
 import com.loicbaillif.s4.*;
 import com.loicbaillif.s5.*;
+import com.loicbaillif.s6.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,8 +13,11 @@ public class Main {
         Ch10.main();
         Ch11.main();
         Ch12.main();
+
         Ch13.main();
         Ch14.main();
         Ch14.noReturn1();
+
+        Ch15.main();
     }
 }

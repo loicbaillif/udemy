@@ -4,7 +4,7 @@ import com.loicbaillif.format.Print;
 
 public class Ch13 {
     public static void main() {
-        Print.title(" Section 4 - Chapter 13: Methods in Java ",
+        Print.title(" Section 5 - Chapter 13: Methods in Java ",
                 (short) 80, '*');
         System.out.println("Invoking method println() to display this text");
         String text1 = printSomething("hammer");

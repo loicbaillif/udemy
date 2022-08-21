@@ -7,7 +7,7 @@ import com.loicbaillif.s4.Ch12;
 
 public class Ch14 {
     public static void main() {
-        Print.title(" Section 4 - Chapter 14: Methods visibility ",
+        Print.title(" Section 5 - Chapter 14: Methods visibility ",
                 (short) 80, '*');
 
         // void-type methods

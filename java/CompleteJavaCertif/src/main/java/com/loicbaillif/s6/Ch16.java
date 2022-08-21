@@ -18,6 +18,14 @@ public class Ch16 {
         hume3.speak();
 
         System.out.println("*** Exercise: Animal class");
+        Animal ostrich = new Animal(17, "birds", "ostrich", "Africa");
+        Animal elephant = new Animal(42, "mammals", "elephant", "Africa");
+        Animal cobra = new Animal(3, "reptiles", "cobra", "America");
+
+        ostrich.angry();
+        elephant.eat("Apples");
+        cobra.compareOrigin(ostrich);
+        elephant.compareOrigin(ostrich);
 
         Print.title(" End of chapter 15 ", (short) 80, '*');
     }

@@ -3,12 +3,27 @@ package com.loicbaillif.s6;
 public class Human {
     // Attributes
     int age;
-    static int nbHumans = 0;
     int heightInCms;
     String eyeColour;
     String firstName;
     String lastName;
-    
+    static int nbHumans = 0;
+
+    // Constructor
+    public Human(
+            int age, int heightInCms,
+            String eyeColour, String firstName, String lastName) {
+        this.age = age;
+        this.heightInCms = heightInCms;
+        this.eyeColour = eyeColour;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        nbHumans++;
+    }
+
+    public Human() {
+        new Human(99, 166, "brown", "John", "Doe");
+    }
 
     // Methods
     public void speak() {

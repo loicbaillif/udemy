@@ -20,7 +20,7 @@ public class Ch14 {
         Print.title(" End of Chapter 14 ", (short) 80, '*');
     }
 
-    public static void noReturn1() {
+    private static void noReturn1() {
         System.out.println("This method does not return anything, even though " +
                 "it can print something.");
     }

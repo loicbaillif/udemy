@@ -14,6 +14,9 @@ public class Ch16 {
         hume2.lastName = "Black";
         hume2.speak();
 
+        Human hume3 = new Human();
+        hume3.speak();
+
         Print.title(" End of chapter 15 ", (short) 80, '*');
     }
 }

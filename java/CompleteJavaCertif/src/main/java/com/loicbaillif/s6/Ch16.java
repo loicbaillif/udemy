@@ -17,6 +17,8 @@ public class Ch16 {
         Human hume3 = new Human();
         hume3.speak();
 
+        System.out.println("*** Exercise: Animal class");
+
         Print.title(" End of chapter 15 ", (short) 80, '*');
     }
 }

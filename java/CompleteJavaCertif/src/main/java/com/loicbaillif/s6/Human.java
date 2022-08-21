@@ -22,7 +22,7 @@ public class Human {
     }
 
     public Human() {
-        new Human(99, 166, "brown", "John", "Doe");
+        this(99, 166, "brown", "John", "Doe");
     }
 
     // Methods

@@ -27,6 +27,6 @@ public class Ch16 {
         cobra.compareOrigin(ostrich);
         elephant.compareOrigin(ostrich);
 
-        Print.title(" End of chapter 15 ", (short) 80, '*');
+        Print.title(" End of chapter 16 ", (short) 80, '*');
     }
 }

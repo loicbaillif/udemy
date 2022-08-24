@@ -23,7 +23,7 @@ public class Fish extends Animal {
     // Methods
     public void swim() {
         System.out.printf(
-                "%s swims super fast in the %s",
+                "%s swims super fast in the %s%n",
                 this.name,
                 this.freshwater? "river" : "ocean");
     }

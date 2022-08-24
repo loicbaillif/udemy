@@ -39,4 +39,8 @@ public class Animal {
     public void eat(String food) {
         System.out.printf("Vets are feeding %s with %s%n", this.name, food);
     }
+
+    public void sleep() {
+        System.out.println("Sleeping...");
+    }
 }

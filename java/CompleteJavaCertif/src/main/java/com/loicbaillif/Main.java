@@ -26,5 +26,6 @@ public class Main {
         Ch16.main();
         Ch17.main();
         Ch18.main();
+        Ch19.main();
     }
 }

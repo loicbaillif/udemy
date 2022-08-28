@@ -6,7 +6,8 @@ public class Ch21 {
     public static void main() {
         Print.title(" Section 6 - Chapter 21: Interfaces ", (short) 80);
 
-        
+        Chicken chicken1 = new Chicken(2, "Hen", "Cocot", "Europe", true);
+        chicken1.fly();
 
         Print.title(" End of chapter 21 ", (short) 80, '*');
     }

@@ -12,6 +12,17 @@ public class Ch22 {
         Poppy poppy1 = new Poppy();
         poppy1.describeFlowers();
 
+        Plantae rose2 = new Rose();
+        Plantae poppy2 = new Poppy();
+        askPlantaeDescription(rose2);
+        askPlantaeDescription(rose1);
+        askPlantaeDescription(poppy2);
+
         Print.title(" End of chapter 22 ", (short) 80, '*');
+    }
+
+    public static void askPlantaeDescription(Plantae plantae) {
+        System.out.print("Here is the description about " + plantae + "\n\t");
+        plantae.describeFlowers();
     }
 }
